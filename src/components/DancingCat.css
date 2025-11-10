@@ -6,6 +6,15 @@
   padding: 2rem;
 }
 
+.animals-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .cat-wrapper {
   width: 250px;
   height: 250px;

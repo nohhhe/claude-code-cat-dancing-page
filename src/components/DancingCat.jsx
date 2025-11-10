@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import catImage from '../assets/images/cat.svg'
+import monkeyImage from '../assets/images/monkey.svg'
 import './DancingCat.css'
 
 function DancingCat() {
@@ -27,12 +28,22 @@ function DancingCat() {
 
   return (
     <div className="dancing-cat-container" role="main">
-      <div
-        className={`cat-wrapper ${isAnimating ? 'dancing' : ''}`}
-        role="img"
-        aria-label={isAnimating ? 'Dancing cat animation' : 'Stationary cat'}
-      >
-        <img src={catImage} alt="Cute orange cat" className="cat-image" />
+      <div className="animals-wrapper">
+        <div
+          className={`cat-wrapper ${isAnimating ? 'dancing' : ''}`}
+          role="img"
+          aria-label={isAnimating ? 'Dancing cat animation' : 'Stationary cat'}
+        >
+          <img src={catImage} alt="Cute orange cat" className="cat-image" />
+        </div>
+
+        <div
+          className={`cat-wrapper ${isAnimating ? 'dancing' : ''}`}
+          role="img"
+          aria-label={isAnimating ? 'Dancing monkey animation' : 'Stationary monkey'}
+        >
+          <img src={monkeyImage} alt="Cute brown monkey" className="cat-image" />
+        </div>
       </div>
 
       <button
@@ -45,7 +56,7 @@ function DancingCat() {
       </button>
 
       <p className="instruction" role="status" aria-live="polite">
-        {isAnimating ? 'Watch me dance! 💃' : 'Click to make me dance! 🐱'}
+        {isAnimating ? 'Watch us dance! 💃' : 'Click to make us dance! 🐱🐵'}
       </p>
 
       <div className="keyboard-hint">

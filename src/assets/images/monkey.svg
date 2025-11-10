@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Monkey body -->
+  <ellipse cx="100" cy="120" rx="50" ry="60" fill="#8B5A3C" stroke="#6B4423" stroke-width="2"/>
+
+  <!-- Monkey head -->
+  <circle cx="100" cy="60" r="40" fill="#8B5A3C" stroke="#6B4423" stroke-width="2"/>
+
+  <!-- Face area (lighter color) -->
+  <ellipse cx="100" cy="65" rx="30" ry="28" fill="#D4A574"/>
+
+  <!-- Left ear -->
+  <circle cx="70" cy="40" r="18" fill="#8B5A3C" stroke="#6B4423" stroke-width="2"/>
+  <circle cx="70" cy="40" r="12" fill="#D4A574"/>
+
+  <!-- Right ear -->
+  <circle cx="130" cy="40" r="18" fill="#8B5A3C" stroke="#6B4423" stroke-width="2"/>
+  <circle cx="130" cy="40" r="12" fill="#D4A574"/>
+
+  <!-- Left eye -->
+  <circle cx="85" cy="58" r="8" fill="white" stroke="#2C3E50" stroke-width="1.5"/>
+  <circle cx="87" cy="58" r="5" fill="#2C3E50"/>
+  <circle cx="88" cy="56" r="2" fill="white"/>
+
+  <!-- Right eye -->
+  <circle cx="115" cy="58" r="8" fill="white" stroke="#2C3E50" stroke-width="1.5"/>
+  <circle cx="117" cy="58" r="5" fill="#2C3E50"/>
+  <circle cx="118" cy="56" r="2" fill="white"/>
+
+  <!-- Nose -->
+  <ellipse cx="100" cy="72" rx="8" ry="6" fill="#6B4423"/>
+  <ellipse cx="97" cy="70" rx="2" ry="3" fill="#2C3E50"/>
+  <ellipse cx="103" cy="70" rx="2" ry="3" fill="#2C3E50"/>
+
+  <!-- Mouth (big smile) -->
+  <path d="M 80 78 Q 100 88 120 78" stroke="#6B4423" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Left arm -->
+  <ellipse cx="60" cy="130" rx="12" ry="35" fill="#8B5A3C" stroke="#6B4423" stroke-width="2"/>
+  <ellipse cx="60" cy="160" rx="10" ry="8" fill="#D4A574"/>
+
+  <!-- Right arm -->
+  <ellipse cx="140" cy="130" rx="12" ry="35" fill="#8B5A3C" stroke="#6B4423" stroke-width="2"/>
+  <ellipse cx="140" cy="160" rx="10" ry="8" fill="#D4A574"/>
+
+  <!-- Left leg -->
+  <ellipse cx="80" cy="165" rx="10" ry="25" fill="#8B5A3C" stroke="#6B4423" stroke-width="2"/>
+
+  <!-- Right leg -->
+  <ellipse cx="120" cy="165" rx="10" ry="25" fill="#8B5A3C" stroke="#6B4423" stroke-width="2"/>
+
+  <!-- Left foot -->
+  <ellipse cx="80" cy="185" rx="12" ry="8" fill="#D4A574"/>
+
+  <!-- Right foot -->
+  <ellipse cx="120" cy="185" rx="12" ry="8" fill="#D4A574"/>
+
+  <!-- Tail (curly) -->
+  <path d="M 145 135 Q 165 130 175 120 Q 185 110 180 95 Q 178 85 170 80"
+        stroke="#6B4423" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M 145 135 Q 165 130 175 120 Q 185 110 180 95 Q 178 85 170 80"
+        stroke="#8B5A3C" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- Belly spot -->
+  <ellipse cx="100" cy="135" rx="25" ry="35" fill="#D4A574" opacity="0.6"/>
+</svg>
